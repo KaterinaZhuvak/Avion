@@ -1,0 +1,35 @@
+.header {
+  &__link-t {
+    color: #22202e;
+    font-family: Clash Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  hr {
+    width: 1386px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  &__wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  &__search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__apps {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+}

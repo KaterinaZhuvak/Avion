@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  // max-width: 100%;
+}
+.container {
+  margin: 0 auto;
+  @media (min-width: 320px) {
+    padding: 0 24px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 28px;
+    max-width: 1170px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url(../../src/fonts/ClashDisplay-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url(../../src/fonts/ClashDisplay-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url(../../src/fonts/Satoshi-Regular.ttf);
+  font-weight: 400;
+}
