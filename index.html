@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header__container">
         <div class="header__wraper">
           <svg
             class="header__search"
@@ -88,56 +88,66 @@
     </header>
     <hr />
     <section class="home">
-      <ul class="home__list">
-        <li class="home__links"></li>
-        <li class="home__links">Ceramics</li>
-        <li class="home__links">Tables</li>
-        <li class="home__links">Chairs</li>
-        <li class="home__links">Crockery</li>
-        <li class="home__links">Tableware</li>
-        <li class="home__links">Cutlery</li>
-      </ul>
+      <div class="container">
+        <ul class="home__list">
+          <li class="home__links"></li>
+          <li class="home__links">Ceramics</li>
+          <li class="home__links">Tables</li>
+          <li class="home__links">Chairs</li>
+          <li class="home__links">Crockery</li>
+          <li class="home__links">Tableware</li>
+          <li class="home__links">Cutlery</li>
+        </ul>
+      </div>
+    </section>
+    <section class="furniture">
+      <div class="container">
+        <div class="furniture__description"></div>
+        <div class="furniture__img">
+          <img src="./src/img/furniture-img.png" alt="img" />
+        </div>
+      </div>
     </section>
     <section class="brand">
-      <h3 class="brand__logo">What makes our brand different</h3>
-      <ul class="brand__list">
-        <li class="brand__card">
-          <img class="brand__img" src="./src/icons/Delivery.svg" alt="car" />
-          <h4 class="brand__card-title">Next day as standard</h4>
-          <p class="brand__card-p">
-            Order before 3pm and get your order <br />
-            the next day as standard
-          </p>
-        </li>
-        <li class="brand__card">
-          <img
-            class="brand__img"
-            src="./src/icons/Checkmark.svg"
-            alt="checkmark"
-          />
-          <h4 class="brand__card-title">Made by true artisans</h4>
-          <p class="brand__card-p">
-            Handmade crafted goods made with <br />
-            real passion and craftmanship
-          </p>
-        </li>
-        <li class="brand__card">
-          <img class="brand__img" src="./src/icons/wallet.svg" alt="wallet" />
-          <h4 class="brand__card-title">Unbeatable prices</h4>
-          <p class="brand__card-p">
-            For our materials and quality you <br />
-            won’t find better prices anywhere
-          </p>
-        </li>
-        <li class="brand__card">
-          <img class="brand__img" src="./src/icons/plant.svg" alt="plant" />
-          <h4 class="brand__card-title">Recycled packaging</h4>
-          <!-- <p class="brand__card-p">
-            We use 100% recycled packaging to <br />
-            ensure our footprint is manageable
-          </p> -->
-        </li>
-      </ul>
+      <div class="container">
+        <h3 class="brand__logo">What makes our brand different</h3>
+        <ul class="brand__list">
+          <li class="brand__card">
+            <img class="brand__img" src="./src/icons/Delivery.svg" alt="car" />
+            <h4 class="brand__card-title">Next day as standard</h4>
+            <p class="brand__card-p">
+              Order before 3pm and get your order the next day as standard
+            </p>
+          </li>
+          <li class="brand__card">
+            <img
+              class="brand__img"
+              src="./src/icons/Checkmark.svg"
+              alt="checkmark"
+            />
+            <h4 class="brand__card-title">Made by true artisans</h4>
+            <p class="brand__card-p">
+              Handmade crafted goods made with real passion and craftmanship
+            </p>
+          </li>
+          <li class="brand__card">
+            <img class="brand__img" src="./src/icons/wallet.svg" alt="wallet" />
+            <h4 class="brand__card-title">Unbeatable prices</h4>
+            <p class="brand__card-p">
+              For our materials and quality you won’t find better prices
+              anywhere
+            </p>
+          </li>
+          <li class="brand__card">
+            <img class="brand__img" src="./src/icons/plant.svg" alt="plant" />
+            <h4 class="brand__card-title">Recycled packaging</h4>
+            <p class="brand__card-p">
+              We use 100% recycled packaging to ensure our footprint is
+              manageable
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
   </body>
 </html>

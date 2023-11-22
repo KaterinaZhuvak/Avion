@@ -1,4 +1,14 @@
 .header {
+  &__container {
+    margin: 0 auto;
+    @media (min-width: 320px) {
+      padding: 0 24px;
+    }
+    @media (min-width: 1200px) {
+      padding: 0 28px;
+      max-width: 1170px;
+    }
+  }
   &__link-t {
     color: #22202e;
     font-family: Clash Display;
